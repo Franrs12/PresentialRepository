@@ -1,0 +1,10 @@
+Character.create(name:"Bender Bending Rodríguez",	birth_year:2997, age:18, 	favourite_food:"cerveza", 	programming_language:"Ruby", 		hobbies:"robopilinguis",	image:"/characters/Bender_Rodríguez.png")
+Character.create(name:"Philip J. Fry",				birth_year:1974, age:1041, 	favourite_food:"anchoas", 	programming_language:"PHP", 		hobbies:"dormir",			image:"/characters/Philip_Fry.png")
+Character.create(name:"Turanga Leela",				birth_year:2975, age:40, 	favourite_food:"popplers", 	programming_language:"Ruby", 		hobbies:"mandar",			image:"/characters/Turanga_Leela.png")
+Character.create(name:"Doctor Zoidberg",			birth_year:2969, age:46, 	favourite_food:"palomas", 	programming_language:"JavaScript", 	hobbies:"lamentarse",		image:"/characters/Dr_John_Zoidberg.png")
+Character.create(name:"Doctora Amy Wong",			birth_year:2979, age:36, 	favourite_food:"pizza", 	programming_language:"JavaScript", 	hobbies:"comprar",			image:"/characters/FuturamaAmyWong.png")
+
+#Character.create(name:"Profesor Hubert Farnsworth",birth_year:, age:, favourite_food:"", programming_language:"", hobbies:"")
+#Character.create(name:"Zapp Brannigan",			birth_year:, age:, favourite_food:"", programming_language:"", hobbies:"")
+#Character.create(name:"Kif Kroker",				birth_year:, age:, favourite_food:"", programming_language:"", hobbies:"")
+#Character.create(name:"Hermes Conrad",				birth_year:, age:, favourite_food:"", programming_language:"", hobbies:"")

@@ -1,0 +1,59 @@
+body {
+	background-image: url('Elegant_Background-4.jpg');
+	padding: 42px;
+}
+
+#rocket {
+	width: 600px;
+}
+
+p {
+	color: #000;
+}
+
+a:link {
+    color: #612;
+}
+
+a:hover {
+	color: #445;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #612;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	font-family: Serif, "Times New Roman";
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+h3 {
+	font-family: Serif, "Times New Roman";
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container {
+	border-radius: 12px;
+	padding: 12px;
+	margin: 12px;
+}
+
+.column {
+	padding: 24px;
+}
+
+#rocket {
+	max-width: 100%;
+}

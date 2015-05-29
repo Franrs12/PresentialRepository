@@ -1,0 +1,49 @@
+<div class="container">
+	<h3><%= @character.name %></h3>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="column col-xs-12 col-md-4">
+
+			<p><b>Birth year:</b>
+			<%= @character.birth_year %><br>
+			</p>
+
+			<p><b>Age:</b>
+			<%= @character.age %><br>
+			</p>
+
+			<p><b>Favourite food:</b>
+			<%= @character.favourite_food %><br>
+			</p>
+
+			<p><b>Programming language:</b>
+			<%= @character.programming_language %><br>
+
+			<p><b>Hobbies:</b>
+			<%= @character.hobbies %>
+			</p>
+
+			<hr>
+
+			<p><%= link_to 'Edit character', edit_character_path(@character) %></p>
+			<p><%= link_to 'Back to characters', characters_path %></p>
+		</div>
+
+		<div class="column col-xs-12 col-md-4">
+			<img src="<%= @character.image%>">
+		</div>
+
+		<div class="column col-xs-6 col-md-4">
+
+			<h4>Matches:</h4>
+
+			<% @characters.each do |character| %>
+				<p><img src="<%= character.image%>" width="24">
+				<%= character.name %><br>
+				<%= link_to 'See', character_path(character) %></p>
+			<% end %>
+		</div>
+	</div>
+</div>

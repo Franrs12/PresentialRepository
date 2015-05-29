@@ -1,0 +1,25 @@
+<div class="container">
+	<h1>CHARACTERS</h1>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-4">
+			<% @characters.each do |character| %>
+				<p><img src="<%= character.image%>" width="24">
+				<%= character.name %><br>
+				<%= link_to 'See', character_path(character) %></p>
+			<% end %>
+		</div>
+
+		<div class="col-xs-12 col-md-8">
+			<img id="rocket" src="http://adamquattro.com/main/wp-content/uploads/2014/02/render.png">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<p><%= link_to 'New character', new_character_path %></p>
+		</div>
+	</div>
+</div>

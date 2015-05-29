@@ -1,0 +1,46 @@
+<h3>New character:</h3>
+
+<%= form_for @character do |c| %>
+
+<p>
+  <%= c.label :name %><br>
+  <%= c.text_field :name %>
+</p>
+
+<p>
+  <%= c.label :birth_year %><br>
+  <%= c.number_field :birth_year %>
+</p>
+
+<p>
+  <%= c.label :age %><br>
+  <%= c.number_field :age %>
+</p>
+
+<p>
+  <%= c.label :favourite_food %><br>
+  <%= c.text_field :favourite_food %>
+</p>
+
+<p>
+  <%= c.label :programming_language %><br>
+  <%= c.text_area :programming_language %>
+</p>
+
+<p>
+  <%= c.label :hobbies %><br>
+  <%= c.text_area :hobbies %>
+</p>
+
+<p>
+  <%= c.label :image %><br>
+  <%= c.text_field :image %>
+</p>
+
+<p>
+  <%= c.submit %>
+</p>
+
+<% end %>
+
+<%= link_to 'Volver a personajes', characters_path %></p>
